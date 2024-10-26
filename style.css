@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+.button {
+    transition-duration: 0.4s;
+    background-color:black;
+    color:white;
+    border-radius: 5px;
+  }
+  
+  .button:hover {
+    background-color: #00e1ff; /* Green */
+    color: white;
+  }
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+    transition-duration: 0.4s;
+}
+nav ul li:hover{
+    display: inline;
+    margin: 0 15px;
+        color: white;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.gallery-item {
+    flex: 1 1 calc(30% - 20px);
+    background: #eee;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #333;
+    outline: none; /* Removes the default outline */
+    box-shadow: 0 0 5px rgba(51, 51, 51, 0.5);
+}
+
+sub{
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+sub:hover {
+    background-color: #555;
+}
+.video-container {
+    display: flex;
+    justify-content: space-between; /* Adjust spacing between videos */
+    gap: 20px; /* Optional: space between video items */
+}
+
+.video-item {
+    flex: 1; /* Allow items to grow equally */
+    justify-content: space-between; /* Adjust spacing between videos */
+    max-width: 200px; /* Set max width for videos */
+}
+.video-item2 {
+    flex: 1; /* Allow items to grow equally */
+    justify-content: space-between; /* Adjust spacing between videos */ 
+    max-width: 200px; /* Set max width for videos */
+}
+
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.logo-item {
+    flex: 1 1 calc(30% - 20px);
+    background: #eee;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
