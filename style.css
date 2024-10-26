@@ -122,18 +122,15 @@ sub:hover {
 }
 .video-container {
     display: flex;
-    justify-content: space-between; /* Adjust spacing between videos */
-    gap: 20px; /* Optional: space between video items */
+    gap: 60px; /* Optional: space between video items */
 }
 
 .video-item {
     flex: 1; /* Allow items to grow equally */
-    justify-content: space-between; /* Adjust spacing between videos */
     max-width: 200px; /* Set max width for videos */
 }
 .video-item2 {
     flex: 1; /* Allow items to grow equally */
-    justify-content: space-between; /* Adjust spacing between videos */ 
     max-width: 200px; /* Set max width for videos */
 }
 
