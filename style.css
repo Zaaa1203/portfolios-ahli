@@ -120,19 +120,6 @@ sub{
 sub:hover {
     background-color: #555;
 }
-.video-container {
-    display: flex;
-    gap: 60px; /* Optional: space between video items */
-}
-
-.video-item {
-    flex: 1; /* Allow items to grow equally */
-    max-width: 200px; /* Set max width for videos */
-}
-.video-item2 {
-    flex: 1; /* Allow items to grow equally */
-    max-width: 200px; /* Set max width for videos */
-}
 
 .logo {
     display: flex;
